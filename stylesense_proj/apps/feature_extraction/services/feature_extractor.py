@@ -13,6 +13,8 @@ from stylesense_proj.apps.feature_extraction.services.ontology import all as ALL
 import numpy as np
 from PIL import Image
 
+logging.basicConfig(level=logging.INFO)
+
 
 class Singleton(type):
     _instances = {}
