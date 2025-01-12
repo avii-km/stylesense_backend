@@ -6,3 +6,5 @@ mysqlclient==2.2.7
 torch==2.5.1
 pymongo==4.10.1
 numpy==2.2.1
+gunicorn==19.7.1
+
