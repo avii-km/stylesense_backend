@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'stylesense_proj.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'defau/home/tech/stylesense/stylesense/stylesense/stylesense_proj/manage.pylt': {
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }

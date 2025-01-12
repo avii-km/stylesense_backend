@@ -18,7 +18,6 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.urls import path, include
 from stylesense_proj import views
-from application_config.base_conf import API_BASE_PATH, MIDDLEWARE_MAPPING
 from stylesense_proj.apps.feature_extraction import urls as feature_extraction_urls
 
 urlpatterns = [

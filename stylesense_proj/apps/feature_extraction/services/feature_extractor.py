@@ -1,16 +1,10 @@
 import json
 import logging
 import traceback
-from datetime import timedelta
-from unicodedata import category
-
 from pymongo import MongoClient
-import pandas as pd
-import requests
 import base64
 import io
-from io import BytesIO
-from PIL import Image
+
 import torch
 from torchvision import models, transforms
 
@@ -202,7 +196,6 @@ class FeatureExtractor(object, metaclass=Singleton):
 
 
     def process_feature_extraction(self, session_data, body, params):
-        from datetime import datetime
         import time
         try:
 

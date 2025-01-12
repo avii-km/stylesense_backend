@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000"  # Replace with your frontend's origin
+    "http://localhost:3000",  # Replace with your frontend's origin
 ]
 
 # Quick-start development settings - unsuitable for production
