@@ -11,18 +11,4 @@ application = ProtocolTypeRouter({
 })
 
 
-#
-#  pip install Django
-#
-#  pip install channels
-#
-# pip install django-cors-headers
-#
-#
-# pip install mysqlclient
-
-# pip pip install torch
-#
-# pip install torchvision
-
 
